@@ -10,7 +10,7 @@ public class Request {
 
     public static String get(String url) throws IOException {
 
-        String source ="";
+        /*String source ="";
         URL oracle = new URL(url);
         URLConnection yc = oracle.openConnection();
         BufferedReader in = new BufferedReader(
@@ -20,8 +20,8 @@ public class Request {
 
         while ((inputLine = in.readLine()) != null)
             source +=inputLine;
-        in.close();
-        return source;
+        in.close();*/
+        return "";
     }
 
 
